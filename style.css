@@ -327,9 +327,11 @@ hr {
 .cv-section {
   display: none;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 20px 0 100px 0;
+}
+
+.test {
+  margin: 20px 0 20px 0;
 }
 
 .header-cv {
@@ -339,18 +341,18 @@ hr {
 
 .header-cv h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 34px;
+  color: #fe86d4;
 }
 
 .header-cv p {
-  margin: 5px 0;
+  font-size: 24px;
+  margin: 15px 0;
   color: #777;
 }
 
 h2 {
-  color: #555;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
+  color: #7b6cd5;
 }
 
 div {
@@ -359,24 +361,56 @@ div {
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0 25px 0;
 }
 
 ul li {
-  margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-left: 20px;
 }
 
+.competences,
+.formations,
+.xp-pro,
+.centres-interet,
+.langues {
+  margin-left: 30px;
+}
 .experience {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .experience h3 {
-  margin: 0;
-  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 24px;
   color: #444;
 }
 
 .experience p {
-  margin: 5px 0 0 0;
+  font-size: 18px;
+  margin: 5px 0 0 20px;
   color: #666;
+}
+
+.langues p {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+/******************************************************* Footer *******************************************************/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reseaux i {
+  color: #fe86d4;
+}
+
+.reseaux i:hover {
+  color: #7b6cd5;
 }
