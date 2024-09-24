@@ -1,0 +1,382 @@
+/******************************** Body ************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  color: #555;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  line-height: inherit;
+  font-family: "Josefin Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+span {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #555;
+  cursor: pointer;
+}
+.main-container {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/**************************************** Overlay ********************************************/
+.banner-overlay {
+  background-image: url(/linear-vintage-vaporwave.avif);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: auto;
+
+  height: 390px;
+  position: relative;
+}
+
+.contact-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 390px;
+  max-width: 1920px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mail-phone {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 90px 20px;
+  height: 50px;
+  width: 100%;
+}
+
+.mail-header,
+.phone-header {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  font-weight: 400;
+  vertical-align: middle;
+  width: 48%;
+  height: auto;
+}
+
+.mail-header a,
+.phone-header a {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.mail-header a:hover,
+.phone-header a:hover {
+  color: #fe86d4;
+  text-decoration: none;
+}
+
+.mail-header i,
+.phone-header i {
+  font-size: 16px;
+  background-color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  color: #3e2d40;
+  vertical-align: middle;
+  padding: 6px 4px 0 4px;
+}
+
+.button-reseaux {
+  position: absolute;
+  top: 240px;
+  left: 45%;
+  justify-content: center;
+  padding: 20px 0;
+  z-index: 3;
+}
+
+.btn {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  padding: 21px 32px 19px;
+  background-color: #fe86d4;
+  color: #fff;
+  border-radius: 11px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #7b6cd5;
+}
+
+/****************************************** Présentation Projet CV *******************************************/
+
+.section-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 38px;
+  line-height: 40px;
+  letter-spacing: 0.84px;
+  font-weight: 700;
+  color: #7b6cd5;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-title-desc {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.presentation-projets-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+}
+
+.img-ppc {
+  display: flex;
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ppc img {
+  width: 80px;
+  height: auto;
+  max-width: 80px;
+  max-height: auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.ppc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 160px;
+  margin: 20px 20px 40px 20px;
+}
+
+.ppc-title:hover {
+  color: #7b6cd5;
+}
+
+.ppc-title:focus {
+  color: #7b6cd5;
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 75%;
+  border: 2px solid #7b6cd5;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/****************************************************** Présentation **********************************************************/
+
+.presentation-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 20px 0 100px 0;
+}
+
+.ppc h3 {
+  cursor: pointer;
+}
+
+.presentation-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 33%;
+  height: 160px;
+  margin: 20px 20px 60px 20px;
+}
+
+.photo-section {
+  width: 280px;
+  height: 280px;
+  background-color: #fe86d4;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.photo-section img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/************************************************ Projets **********************************************/
+
+.projets-section {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 100px 0;
+}
+
+.projet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 20px 20px 120px 20px;
+}
+
+.projet img {
+  width: 1050px;
+  height: auto;
+  border: #fe86d4 10px solid;
+  border-radius: 11px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.projet p {
+  width: 90%;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projet h3 {
+  font-size: 38px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/************************************************** CV ***************************************************/
+
+.cv-section {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 100px 0;
+}
+
+.header-cv {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-cv h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header-cv p {
+  margin: 5px 0;
+  color: #777;
+}
+
+h2 {
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.experience {
+  margin-bottom: 15px;
+}
+
+.experience h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.experience p {
+  margin: 5px 0 0 0;
+  color: #666;
+}
