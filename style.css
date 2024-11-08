@@ -249,9 +249,9 @@ h1 {
 .presentation {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
   margin: 20px;
 }
 
@@ -468,6 +468,36 @@ footer {
     width: 400px;
     margin-top: 30px;
   }
+
+  .projet h3 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .projet img {
+    width: 650px;
+    height: auto;
+  }
+
+  .projet p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  ul li {
+    font-size: 18px;
+  }
+  .experience h3 {
+    font-size: 20px;
+  }
+
+  .experience p {
+    font-size: 14px;
+  }
+
+  .langues p {
+    font-size: 20px;
+  }
 }
 
 /* ********************************************************Mobile*********************************************************** */
@@ -480,5 +510,50 @@ footer {
   .mail-phone {
     flex-direction: column;
     align-items: center;
+  }
+
+  .section-title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .section-title-desc {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .presentation-projets-cv {
+    align-items: center;
+  }
+
+  .ppc-title {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .img-ppc {
+    width: 60px;
+    height: auto;
+    max-width: 60px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .projet h3 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .projet img {
+    width: 350px;
+    height: auto;
+  }
+
+  .projet p {
+    font-size: 16px;
+    line-height: 30px;
   }
 }
